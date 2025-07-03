@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Week 3 - Final UI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section class="contact-form">
+    <h2>Contact Us</h2>
+    <form id="form">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Submit</button>
+      <p id="formMessage"></p>
+    </form>
+  </section>
+
+  <section class="slider-section">
+    <h2>Image Slider</h2>
+    <div class="slider">
+      <button class="nav prev">&#10094;</button>
+      <img id="slide" src="https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?cs=srgb&dl=pexels-pixabay-206359.jpg&fm=jpg" alt="Slider Image">
+      <button class="nav next">&#10095;</button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

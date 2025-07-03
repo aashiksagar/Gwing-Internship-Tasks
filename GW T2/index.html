@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Week 2 - Contact & Slider</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Contact Form -->
+  <section class="contact-section">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <!-- Image Slider -->
+  <section class="slider-section">
+    <h2>Image Slider</h2>
+    <div class="slider">
+      <button class="prev">&#10094;</button>
+      <img id="sliderImage" src="https://i.etsystatic.com/7095893/r/il/5b9eb4/2367347841/il_570xN.2367347841_ms03.jpg" alt="Slide">
+      <button class="next">&#10095;</button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
